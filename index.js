@@ -2,8 +2,6 @@ import express from "express";
 import cors from "cors";
 import nodemailer from "nodemailer";
 
-dotenv.config();
-
 const app = express();
 const EMAIL_USER = "agustin.morro@gmail.com";
 const EMAIL_PASS = "dphn zybh nfvy zbuv";
