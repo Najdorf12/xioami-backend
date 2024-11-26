@@ -10,7 +10,7 @@ app.use(
     cors({
       origin: [
         "http://localhost:5173", 
-        "https://www.serviciotecnicoinfinix.com.ar" // URL temporal de Vercel
+        "https://xiaomi-app.vercel.app" // URL temporal de Vercel
       ],
       methods: ["GET", "POST", "OPTIONS"],
       allowedHeaders: ["Content-Type", "Authorization"],
